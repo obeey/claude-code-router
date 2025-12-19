@@ -15,14 +15,14 @@
   "Providers": [
     {
       "name": "qwen3-64k",
-      "api_base_url": "http://llm.codingstack.xyz/v1/chat/completions",
+      "api_base_url": "http://qwen-finetuning/v1/chat/completions",
       "api_key": "sk-xxx",
       "models": ["qwen3-coder"],
       "max_context_tokens": 65536
     },
     {
       "name": "qwen3-32k",
-      "api_base_url": "http://llm.codingstack.xyz/v1/chat/completions",
+      "api_base_url": "http://qwen-finetuning/v1/chat/completions",
       "api_key": "sk-xxx",
       "models": ["qwen3-coder"],
       "max_context_tokens": 32768
@@ -38,7 +38,6 @@
 
   "Router": {
     "default": "qwen3-64k,qwen3-coder",
-    "longContext": "claude-sonnet,claude-3-5-sonnet",
     "longContextThreshold": 60000
   }
 }
