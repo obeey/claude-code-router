@@ -31,12 +31,12 @@
     "rotating-file-stream": "^3.2.7",
     "shell-quote": "^1.8.3",
     "tiktoken": "^1.0.21",
-    "uuid": "^11.1.0"
+    "uuid": "^11.1.0",
+    "fastify": "^5.4.0"
   },
   "devDependencies": {
     "@types/node": "^24.0.15",
     "esbuild": "^0.25.1",
-    "fastify": "^5.4.0",
     "shx": "^0.4.0",
     "typescript": "^5.8.2"
   },
